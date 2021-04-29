@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+/* FOR MOBILE DEVICE */
+@media only screen and (max-width: 375px) {
+  html,
+  body {
+    background-image: url("./images/bg-intro-mobile.png");
+    background-repeat: no-repeat;
+    background-color: hsl(0, 100%, 74%);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: ivory;
+  }
+}
+
+/* FOR DESKTOP */
+@media only screen and (max-width: 1440px) {
+  html,
+  body {
+    background-image: url("./images/bg-intro-desktop.png");
+    background-repeat: no-repeat;
+    background-color: hsl(0, 100%, 74%);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: ivory;
+  }
+}
