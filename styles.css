@@ -1,33 +1,92 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
-html {
+* {
   font-family: "Poppins", sans-serif;
 }
 
 /* FOR MOBILE DEVICE */
 @media only screen and (max-width: 375px) {
-  html,
-  body {
+  html {
     background-image: url("./images/bg-intro-mobile.png");
-    background-repeat: no-repeat;
     background-color: hsl(0, 100%, 74%);
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    color: ivory;
+  }
+  body {
+    color: white;
+    font-weight: 600;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .info,
+  .form-info {
+    flex: 100%;
+  }
+
+  .trial {
+    background-color: hsl(248, 32%, 49%);
+    padding: 15px 10px 15px 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 9px;
+    font-size: 0.7em;
+    font-weight: 400;
+  }
+
+  .submit {
+    background-color: hsl(154, 59%, 51%);
+    padding: 15px 10px 15px 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 9px;
+    font-size: 0.7em;
+    color: white;
+    font-weight: 500;
+  }
+
+  #firstname,
+  #lastname,
+  #email,
+  #password {
+    font-weight: 600;
+  }
+  form {
+    border: solid 1px black;
+    padding-left: 22px;
+    padding-top: 22px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 3px hsl(144deg 2% 41%);
+  }
+
+  footer {
+    color: hsl(246, 25%, 77%);
   }
 }
 
 /* FOR DESKTOP */
 @media only screen and (max-width: 1440px) {
-  html,
-  body {
+  html {
     background-image: url("./images/bg-intro-desktop.png");
-    background-repeat: no-repeat;
     background-color: hsl(0, 100%, 74%);
+    color: white;
+  }
+  body {
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    color: ivory;
+  }
+
+  .info {
+    flex: 50%;
+  }
+
+  .form-info {
+    flex: 50%;
   }
 }
