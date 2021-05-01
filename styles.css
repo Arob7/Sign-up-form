@@ -7,7 +7,7 @@
 /* FOR MOBILE DEVICE */
 @media only screen and (max-width: 375px) {
   html {
-    background-image: url("./images/bg-intro-mobile.png");
+    background-image: url("images/bg-intro-mobile.png");
     background-color: hsl(0, 100%, 74%);
     background-position: center center;
     background-attachment: fixed;
@@ -117,7 +117,7 @@
 /* FOR DESKTOP */
 @media only screen and (max-width: 1440px) {
   html {
-    background-image: url("./images/bg-intro-desktop.png");
+    background-image: url("images/bg-intro-desktop.png");
     background-color: hsl(0, 100%, 74%);
     color: white;
   }
